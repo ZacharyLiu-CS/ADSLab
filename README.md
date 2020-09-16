@@ -8,7 +8,7 @@ Academic是一款基于[Hugo](https://github.com/gohugoio/hugo)构建的Website 
 [Hugo's **documentation**](https://gohugo.io/documentation/)
 
 ## 快速开始
-* 你可以通过[netlify](adslab.netlify.app)预览本项目master分支的效果。
+* 你可以通过[netlify](https://adslab.netlify.app)预览本项目master分支的效果。
 * 如果你想在自己的PC上编辑和预览，请参考一下步骤：
     1. 环境搭建：这里仅介绍windows下的安装方法，其他平台参看[docs](https://wowchemy.com/docs/install-locally/)。  
     需要安装[git](https://git-scm.com/)、[go](https://golang.google.cn/dl/)、[hugo-extended](https://github.com/gohugoio/hugo/releases/)  
