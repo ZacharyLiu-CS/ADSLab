@@ -1,0 +1,20 @@
+@inproceedings{guo_hp-mapper_2019,
+ abstract = {Docker containers are widely deployed to provide lightweight virtualization, and they have many desirable features such as ease of deployment and near bare-metal performance. However, both the performance and cache efficiency of containers are still limited by their storage drivers due to the coarse-grained copy-on-write operations, and the large amount of redundancy in both I/O requests and page cache. To improve I/O performance and cache efficiency of containers, we develop HP-Mapper, a high performance storage driver for Docker containers. HP-Mapper provides a two-level mapping strategy to support fine-grained copy-on-write with low overhead, and an efficient interception method to reduce redundant I/Os. Furthermore, it uses a novel cache management mechanism to reduce duplicate cached data. Experiment results with our prototype system show that HP-Mapper significantly reduces copy-on-write latency due to its finer-grained copy-on-write scheme. Moreover, HP-Mapper can also reduce 65.4% cache usage on average due to elimination of duplicated data. As a result, HP-Mapper improves the throughput of real-world workloads by up to 39.4%, and improves the startup speed of containers by 2.0x.},
+ address = {New York, NY, USA},
+ author = {Guo, Fan and Li, Yongkun and Lv, Min and Xu, Yinlong and Lui, John C. S.},
+ booktitle = {Proceedings of the ACM Symposium on Cloud Computing},
+ doi = {10.1145/3357223.3362718},
+ file = {Full Text PDF:files/10/Guo 等。 - 2019 - HP-Mapper A High Performance Storage Driver for D.pdf:application/pdf},
+ isbn = {978-1-4503-6973-2},
+ keywords = {Docker containers, I/O performance, storage drivers},
+ month = {November},
+ pages = {325--336},
+ publisher = {Association for Computing Machinery},
+ series = {SoCC '19},
+ shorttitle = {HP-Mapper},
+ title = {HP-Mapper: A High Performance Storage Driver for Docker Containers},
+ url = {https://doi.org/10.1145/3357223.3362718},
+ urldate = {2020-09-16},
+ year = {2019}
+}
+
