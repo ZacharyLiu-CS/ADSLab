@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 博士
+role: 博士一年级
 
 # Organizations/Affiliations
 organizations:

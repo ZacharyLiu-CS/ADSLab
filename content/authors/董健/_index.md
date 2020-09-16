@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 硕士四年级
+role: 硕士二年级
 
 # Organizations/Affiliations
 organizations:
