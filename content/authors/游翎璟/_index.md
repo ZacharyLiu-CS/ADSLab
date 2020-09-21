@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 光煦灿
+title: 游翎璟
 
 # Username (this should match the folder name)
 authors:
-- 光煦灿
+- 游翎璟
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 硕士四年级
+role: 19级硕士
 
 # Organizations/Affiliations
 organizations:

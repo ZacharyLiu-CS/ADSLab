@@ -1,32 +1,26 @@
 <p align="center"><a href="https://wowchemy.com" target="_blank" rel="noopener"><img src="https://wowchemy.com/img/logo_200px.png" alt="Wowchemy Website Builder"></a></p>
 
-# Academic Template for [Hugo](https://github.com/gohugoio/hugo)
+# [ADSLab 主页项目](https://github.com/Colins110/ADSLab)
+本项目基于[Academic](https://wowchemy.com/)框架构建。  
+Academic是一款基于[Hugo](https://github.com/gohugoio/hugo)构建的Website Builder。  
+所以Academic和Hugo的文档可能会对你有用：  
+[Academic's **documentation**](https://wowchemy.com/docs/)  
+[Hugo's **documentation**](https://gohugo.io/documentation/)
 
-The Hugo **Academic Resumé Template** empowers you to create your job-winning online resumé and showcase your academic publications.
+## 快速开始
+* 你可以通过[netlify](https://adslab.netlify.app)预览本项目master分支的效果。
+* 如果你想在自己的PC上编辑和预览，请参考一下步骤：
+    1. 环境搭建：这里仅介绍windows下的安装方法，其他平台参看[docs](https://wowchemy.com/docs/install-locally/)。  
+    需要安装[git](https://git-scm.com/)、[go](https://golang.google.cn/dl/)、[hugo-extended](https://github.com/gohugoio/hugo/releases/)  
+    **notice**：hugo-extended 需要手动配置环境变量。  
+    建议手动安装所有软件，也可以参考文档中使用包管理器一键安装（由于网络原因，实际体验并不是太好）
+    2. 运行项目
+    ```shell
+        >git clone https://github.com/Colins110/ADSLab.git
+        >cd ADSLab
+        >hugo server
+    ```
+    打开浏览器，访问[http://localhost:1313](http://localhost:1313),即可预览效果
 
-[Check out the latest demo](https://academic-demo.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://wowchemy.com/user-stories/).
-
-[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio (via Blogdown), generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs.
-
-- 👉 [**Get Started**](https://wowchemy.com/docs/install/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
-- ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://wowchemy.com/updates/)
-
-## Crowd-funded open-source software
-
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
-
-### [❤️ Click here to unlock rewards with sponsorship](https://wowchemy.com/plans/)
-
-## Ecosystem
-
-* **[Wowchemy Admin](https://github.com/wowchemy/wowchemy-admin/):** An admin tool to import publications from BibTeX
-
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png)](https://wowchemy.com)
-
-<!--
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
--->
+    具体配置方法参见：[Academic's **documentation**](https://wowchemy.com/docs/)  
+    更多Hugo配置方法参见[Hugo's **documentation**](https://gohugo.io/documentation/)
